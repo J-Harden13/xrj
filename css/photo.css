@@ -1,0 +1,22 @@
+/* 轮播 */
+.banner img{width: 100%;margin-top: 80px;}
+/* 中间内容 */
+.content{margin-top: 20px;}
+.content .container{overflow: hidden;}
+.content .left{width:23%;box-shadow:0 -10px 5px 5px #aaa;;float: left;padding-bottom: 100px;}
+.content .left ul li {width: 95%; font-size:18px;height: 70px;line-height: 70px;border-bottom: 1px solid #ccc;}
+.content .left ul li span{display: inline-block;width: 7px;height: 7px;border-radius: 50%;border:1px solid #262626;margin-left: 40px;margin-right: 20px;text-align: center;background: white;}
+.content .left ul .active,.content .left ul li:hover{background: #232c90;color: white;}
+.content .left ul .active a,.content .left ul li:hover a{color: white;}
+.content .left .consult{margin-top:25px;position: relative;}
+.content .left .consult button{width: 180px;height:55px;position: absolute;left: 15%;top: 50%;opacity: 0.8;border: none;}
+.content .right{float:left;margin-bottom:110px;width: 77%;overflow: hidden;}
+.content .right .top{float: right;overflow: hidden;}
+.content .right .top li{margin-left:3%;float: left;}
+.content .right .top li p{font-size: 18px;text-align: center;border-bottom: 1px solid #ccc;padding-bottom: 40px;margin-bottom: 50px;}
+.content .right .paging{overflow: hidden; width: 100%;height: 50px; text-align: center;}
+.content .right .paging li{width: 50px;height: 50px;display:inline-block;vertical-align: top;background: #e5e5e5;margin-right: 10px;font-size: 18px;text-align: center;line-height: 50px;}
+.content .right .paging li:first-of-type{width: 100px;height: 50px;background: #232c90;color: #ffffff;}
+.content .right .paging li:last-of-type{width: 100px;height: 50px;background: #232c90;color: #ffffff;}
+
+

@@ -1,0 +1,15 @@
+/* 轮播 */
+.banner img{width: 100%;display: block;}
+/* 中间内容 */
+.News_detail .container{overflow: hidden;background:#fff;}
+.News_detail .container .wrap{margin:0 10px;color: #616161;}
+.News_detail .container .title .span-01{font-size: 20px;color: #434343;}
+.News_detail .container .title{border-bottom: 1px solid #ccc;padding-bottom: 20px;margin-bottom: 20px;overflow: hidden;}
+.News_detail .container .title .day{font-size: 15px;color: #616161;float:right;}
+.News_detail .container .title .day span{margin-right: 50px;}
+.News_detail .container p{font-size: 15px;text-indent: 2em;margin-top: 30px; line-height: 1.5;}
+.News_detail .container .news-detail_03{text-align: center;}
+.News_detail .container .bottom{padding-bottom: 45px;margin-bottom: 30px; border-bottom:1px solid #ccc;}
+.News_detail .container .wrap_01 p:first-child span{float: right;}
+.News_detail .container .wrap_01 p{margin-top: 0;}
+.News_detail .container .wrap_01 p:last-child{padding-bottom: 150px;}

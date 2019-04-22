@@ -1,0 +1,17 @@
+/* 轮播 */
+.banner img{width: 100%;margin-top: 80px;}
+/* 中间内容 */
+.content{margin-top: 20px;}
+.content .container{overflow: hidden;}
+.content .left{width:23%;box-shadow:0 -10px 5px 5px #aaa;float: left;padding-bottom:50px;}
+.content .left ul li {width: 95%; font-size:18px;height: 70px;line-height: 70px;border-bottom: 1px solid #ccc;}
+.content .left ul li span{display: inline-block;width: 7px;height: 7px;border-radius: 50%;border:1px solid #262626;margin-left: 40px;margin-right: 20px;text-align: center;background: white;}
+.content .left ul .active,.content .left ul li:hover{background: #232c90;color: white;}
+.content .left ul .active a,.content .left ul li:hover a{color: white;}
+.content .left .consult{margin-top:25px;position: relative;}
+.content .left .consult button{width: 180px;height:55px;position: absolute;left: 15%;top: 50%;opacity: 0.8;border: none;}
+.content .right p{font-size:16px;margin-bottom: 30px;line-height: 1.5;text-indent:2em;}
+.content .right{float:right;margin-bottom:110px;width:73%;overflow: hidden;}
+.content .right .right-bottom{float: right;}
+.content .right .right-bottom img{float: left;margin-left: 3px;}
+

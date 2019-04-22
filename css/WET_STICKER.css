@@ -1,0 +1,15 @@
+/* 轮播 */
+.banner img{width: 100%;margin-top: 80px;}
+/* 中间内容 */
+.company_product{margin-top: 20px;}
+.company_product .container{overflow: hidden;}
+.company_product .left{width:23%;box-shadow:0 -10px 5px 5px #aaa;;float: left;padding-bottom: 100px;}
+.company_product .left ul li {width: 95%; font-size:18px;height: 70px;line-height: 70px;border-bottom: 1px solid #ccc;}
+.company_product .left ul li span{display: inline-block;width: 7px;height: 7px;border-radius: 50%;border:1px solid #262626;margin-left: 40px;margin-right: 20px;text-align: center;background: white;}
+.company_product .left ul .active,.company_product .left ul li:hover{background: #232c90;color: white;}
+.company_product .left ul .active a,.company_product .left ul li:hover a{color: white;}
+.company_product .left .consult{margin-top:25px;position: relative;}
+.company_product .left .consult button{width: 180px;height:55px;position: absolute;left: 15%;top: 50%;opacity: 0.8;border: none;}
+.company_product .right{float:right;margin-bottom:110px;width: 76%;overflow: hidden;margin-left: 1%}
+.company_product .right .top{overflow: hidden;}
+.company_product .right .top li{float: left;margin-left: 15px;}
